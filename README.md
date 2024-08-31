@@ -3,4 +3,5 @@
 -hence values which are assigned to the class level variables will be set to default values means data loss.
 -if want to retain values as updated values we have viewmodel concept which are lifecycle aware 
 -viewmodel provides scope for the variables to store data during config changes and provides to the UI.  
--UI Specifik data will be hold inside viewmodel
+-UI Specific data will be hold inside viewmodel
+-viewmodel will survive untill activity or fragment completely destroyed
